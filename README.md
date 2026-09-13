@@ -1,10 +1,9 @@
-# MANET-FL-GNN-Review
+# MANET-FL-GNN
 
 Dynamic intrusion detection for Mobile Ad-hoc Networks (MANETs) using Graph Neural Networks (GNNs) and Federated Learning (FL).
 
 This project builds a full pipeline — from raw NS-3 mobility simulation to a time-evolving graph dataset, classical ML baselines, several GNN architectures, a federated-learning variant, and an interactive dashboard — to detect black-hole, grey-hole, and wormhole routing attacks in a MANET as the network topology changes over time.
 
-**Repository:** https://github.com/Raghavfw/MANET.git
 
 ---
 
@@ -363,6 +362,3 @@ Run this from the repository root (the app reads `data/processed/` and `results/
 - The federated learning setup uses only 5 clients (one per simulation run) with plain FedAvg and no differential privacy, secure aggregation, or client dropout simulation.
 - `data/raw/*.csv:Zone.Identifier` files present in some environments are Windows metadata artifacts from downloading the CSVs and can be safely ignored/deleted.
 
-## License
-
-No license file is currently included in this repository. Add a `LICENSE` file to clarify reuse terms, or contact the repository owner for usage permissions.
